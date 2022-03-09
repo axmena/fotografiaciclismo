@@ -1,0 +1,23 @@
+section{
+    div{
+        h2{
+            margin-top: 50px;
+        }
+    }
+}
+.video{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat (2, 1fr);
+    grid-template-areas: "video1 video2 video3"
+                         "video4 video5 video6";
+    object-fit: cover;
+    padding: 0.3rem;
+    gap: 0.3rem;
+}
+
+@for $i from 1 through 6{
+    .video#{$i} {
+        grid-area: video#{$i};
+    }
+}

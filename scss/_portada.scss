@@ -1,0 +1,36 @@
+.cuerpo{
+    width: 100%;
+    margin: auto;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 15px;
+    grid-template-areas: "portada portada"
+                         "titulo titulo"
+                         "parrafo parrafo ";
+    justify-items: center;
+    align-items: center;
+    div{
+        display: block;
+        color: rgb(0, 0, 0);
+    }
+    .cuerpo__portada{
+        grid-area: portada;
+        box-shadow: none;
+        justify-self: stretch;
+    }
+    .cuerpo__titulo{
+        grid-area: titulo;
+        margin-top: 30px;
+    }
+    .cuerpo__parrafo{
+        grid-area: parrafo;
+        margin: 30px 100px 30px 100px;
+    }
+}
+.carousel-item{
+    height: 50vh;
+}

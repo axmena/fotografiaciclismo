@@ -1,0 +1,58 @@
+.contenedor {
+    width: 100%;
+    padding: 40px, 0;
+    footer {
+        background: rgb(22,40,54);
+        background: linear-gradient(90deg, rgba(22,40,54,1) 22%, rgba(210,9,2,1) 64%, rgba(249,197,0,1) 100%);
+        width: 100%;
+        height: 350px;
+        .contenedor__logo {
+            text-align: center;
+            padding: 20px;
+            img{
+                width: 100px;
+            }
+        }
+        .contenedor__redes {
+            display: flex;
+            justify-content: center;
+            .icon-redes-footer {
+                font-size: 20px;
+                margin: 20px;
+                background: #efefef;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 100px;
+                color: #a2a2a2;
+            }
+            .fa-facebook-f{
+                &:hover{
+                    background:rgb(65, 122, 247);
+                    color: #fff;
+                }
+            }
+            .fa-instagram{
+                &:hover{
+                    background: rgb(131,58,180);
+                    background: linear-gradient(25deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+                    color: #fff;
+                }
+            }
+        }
+        hr{
+            margin-top: 20px;
+            border: none;
+            height: 2px;
+            background: #8e8e8e; 
+        }
+        h4{
+            text-align: center;
+            padding: 20px;
+            color: #8e8e8e;
+            font-weight: 500;
+        }
+    }
+}

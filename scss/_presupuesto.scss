@@ -1,0 +1,67 @@
+.presupuesto{
+    margin: 20px 20px 50px 20px;
+}
+.contenedorCard{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    font-family: 'Lato', sans-serif;
+}
+.contenido{
+    width: 100%;
+    max-width: 1200px;
+    height: 613px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    .card{
+        width: 330px;
+        height: 613px;
+        border-radius: 5px;
+        box-shadow: 0 2px 2px rgb(17, 17, 17);
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s;
+        background-color: rgb(10, 10, 10);
+        &:hover{
+            transform: translateY(-15px);
+            box-shadow: 0 12px 16px rgba(255, 255, 255, 0.2);
+        }
+        img{
+            width: 330px;
+            height: 220px;
+        }
+        h3{
+            font-weight: 600;
+            color: white;
+        }
+        ul{
+            list-style-position: inside;
+            padding: inherit;
+            li{
+                padding: 0.1rem;
+                font-size: 16px;
+                font-weight: 300;
+                color: white;
+                text-align: center;
+            }
+        }
+        button{
+            font-weight: 500;
+            color: blanchedalmond;
+            background-color: rgba(253,29,29,1);
+            padding: 8px;
+            border-radius: 5px;
+            font-family: 'Lato', sans-serif;
+            font-size: 1.0rem;
+            text-decoration: none;
+            padding-bottom: 15px;
+            &:hover{
+                background-color: rgb(255, 182, 193);
+                cursor: pointer;
+            }
+        }
+    }
+}

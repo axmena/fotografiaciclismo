@@ -1,0 +1,160 @@
+@media screen and (max-width: 768px) {
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 2.0rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .cuerpo .cuerpo__parrafo{
+        margin: 15px 30px 15px 30px;
+        line-height: 1.2;
+    }
+
+    .contenedorCard {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contenido{
+        height: 585px;
+    }
+
+    .contenido .card{
+        height: 585px;
+    }
+
+ }
+
+
+@media screen and (max-width: 480px){
+
+    form{
+        width: 100%;
+    }
+
+    .video {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagenes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorCard {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contenido{
+        height: 585px;
+    }
+
+    .contenido .card{
+        height: 585px;
+    }
+
+    .carousel-item{
+        height: 46vh;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 2.0rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1.0rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: 2.0rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 1.0rem;
+        text-align: center;
+    }
+
+    p{
+        font-size: 1.0rem;
+        text-align: center;
+    }
+
+    .cuerpo .cuerpo__parrafo{
+        margin: 15px 30px 15px 30px;
+        line-height: 1.2;
+    }
+
+    .video {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagenes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorCard {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contenido{
+        height: 570px;
+    }
+
+    .contenido .card{
+        height: 570px;
+    }
+
+    .carousel-item{
+        height: 40vh;
+    }
+ }

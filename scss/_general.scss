@@ -1,0 +1,49 @@
+body{
+    background-color: $body;
+}
+
+.img{
+    width: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    color: $color-texto;
+    text-align: center;
+    font-size: 3.0rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    color: $color-texto;
+    text-align: center;
+    font-size: 3.0rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+}
+
+h3 {
+    color: $color-texto;
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    color: $color-texto;
+    font-size: 2.0rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.mayuscula {
+    text-transform: uppercase;
+}
+
+.interlineado {
+    line-height: 1.6;
+}

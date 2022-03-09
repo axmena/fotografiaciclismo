@@ -1,0 +1,27 @@
+section{
+    h2{
+        margin-top: 50px;
+    }
+}
+.fotografias{
+    margin: 20px 20px 50px 20px;
+}
+.imagenes{
+    display:grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: repeat (5, 1fr);
+    grid-template-areas: "img1 img2 img3" 
+    "img4 img5 img6" 
+    "img7 img8 img9" 
+    "img10 img11 img12" 
+    "img13 img14 img15";
+    justify-items: center;
+    align-items: stretch;
+    gap: 0.3rem;
+    padding: 0.3rem;
+}
+@for $i from 1 through 15{
+    .img#{$i} {
+        grid-area: img#{$i};
+    }
+}
